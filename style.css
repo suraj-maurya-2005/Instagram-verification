@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    border: 2px solid green;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagramname{
+    margin-top: 70px;
+    border: none;
+}
+
+.instagramname img{
+    width: 6rem;
+    border-radius: 15px;
+}
+
+.instagramname h2 i {
+    color: white;
+    font-family: cursive;
+    font-family: italic;
+    font-size: xxx-large;
+}
+
+.email{
+    margin-top: 3rem;
+    border: none;
+}
+.email input{
+    width: 19rem;
+    height: 3rem;
+    background-color: #32323259;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  .username{
+    margin-top: 8px;
+    border: none;
+  }
+
+  .username input{
+    width: 19rem;
+    height: 3rem;
+    background-color: #32323259;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+  }
+
+  .loginbtn{
+    border: none;
+    margin-top: 20px;
+  }
+
+  .loginbtn button{
+    width: 19rem;
+    height: 2rem;
+    background-color: #1976D2;
+    color: white;
+    font-style: bold;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .loginbtn button:active{
+    transform: scale(0.95);
+  }
+
+  .or{
+    color: white;
+    border: none;
+    margin-top: 30px;
+  }
+
+  .or p{
+    text-shadow: antiquewhite;
+  }
+
+  .or hr{
+    width: 9rem;
+    margin: 0 9px 0 9px;
+  }
+
+  .facebooklink{
+    margin-top: 3rem;
+    border: none;
+  }
+
+  .facebooklink img{
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .facebooklink p {
+    margin: 0 0 0 15px;
+    font-weight: bold;
+    color: rgb(0, 149, 246);
+    cursor: pointer;
+  }
+
+  .forgotpassword{
+    margin-top: 27px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .forgotpassword p{
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  .haveAccount{
+    margin-top: 4rem;
+    border: none;
+  }
+
+  .haveAccount p{
+    color: white;
+  }
+  .haveAccount .signup{
+    margin: 0 0 0 10px;
+    color:rgb(0, 149, 246) ;
+    cursor: pointer;
+  }
+
+  .messagebox{
+    width: 24rem;
+    height: 4rem;
+    background-color: white;
+    color: black;
+    position: absolute;
+    z-index: 1;
+    top: -84%;
+    left: 6%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .messagebox button{
+    position: absolute;
+    right: 1%;
+    top: 4%;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    border-radius: 5px;
+    outline: none;
+
+  }
+  .messagebox button:active{
+    transform: scale(0.95);
+  }
+
+  .messagebox p {
+    font-size: larger;
+    margin: 0 0 0 57px;
+    font-weight: bolder;
+  }
